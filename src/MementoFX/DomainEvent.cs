@@ -19,7 +19,7 @@ namespace Memento
         /// <summary>
         /// Get or set the time at which the event occurred
         /// </summary>
-        public DateTime TimeStamp { get; internal set; }
+        public DateTime TimeStamp { get; set; }
 
         /// <summary>
         /// Gets or sets the TimelineId

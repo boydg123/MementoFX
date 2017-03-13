@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>MementoFX.Tests.snk</AssemblyOriginatorKeyFile>
+    <Authors>Andrea Saltarello</Authors>
+    <Company>Mastreeno ltd</Company>
+    <Product>MementoFX</Product>
+    <Version>2.0.0</Version>
+    <RootNamespace>Memento.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MementoFX\MementoFX.csproj" />
+  </ItemGroup>
+
+</Project>

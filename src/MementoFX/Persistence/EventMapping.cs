@@ -21,7 +21,7 @@ namespace Memento.Persistence
         /// <summary>
         /// The descriptor of the method accepting the event as its parameter
         /// </summary>
-        internal ParameterInfo ApplyMethodParameter;
+        public ParameterInfo ApplyMethodParameter;
 
         /// <summary>
         /// The name of the event property to be used as the aggregate Id

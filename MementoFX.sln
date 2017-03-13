@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "src\MementoFX\Memento.csproj", "{A55D9702-109E-44EA-9E7E-D3B0B49EF123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoFX", "src\MementoFX\MementoFX.csproj", "{FA72071E-74B8-47F7-8639-3852E2116E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Tests", "src\MementoFX.Tests\Memento.Tests.csproj", "{477C4749-13E2-46D4-91B5-77037D9168B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoFX.Tests", "src\MementoFX.Tests\MementoFX.Tests.csproj", "{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Domain.NetFx", "..\MementoFX.Domain.NetFx\src\MementoFX.Domain.NetFx\Memento.Domain.NetFx.csproj", "{A55D9702-109E-44EA-9E7E-D3B0B49EF123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA72071E-74B8-47F7-8639-3852E2116E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA72071E-74B8-47F7-8639-3852E2116E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA72071E-74B8-47F7-8639-3852E2116E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA72071E-74B8-47F7-8639-3852E2116E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Release|Any CPU.Build.0 = Release|Any CPU
-		{477C4749-13E2-46D4-91B5-77037D9168B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{477C4749-13E2-46D4-91B5-77037D9168B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{477C4749-13E2-46D4-91B5-77037D9168B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{477C4749-13E2-46D4-91B5-77037D9168B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

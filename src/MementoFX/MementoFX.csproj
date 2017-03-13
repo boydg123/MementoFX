@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.2</TargetFramework>
+    <Version>2.0.0-pre1</Version>
+    <Authors>Andrea Saltarello</Authors>
+    <Company>Mastreeno ltd</Company>
+    <Description>An application framework supporting the development of time travelling applications</Description>
+    <Copyright>Mastreeno ltd, 2017</Copyright>
+    <PackageProjectUrl>https://github.com/MementoFX/MementoFX</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl.txt</PackageLicenseUrl>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/MementoFX/MementoFX</RepositoryUrl>
+    <SignAssembly>False</SignAssembly>
+    <AssemblyOriginatorKeyFile>MementoFX.snk</AssemblyOriginatorKeyFile>
+    <RootNamespace>Memento</RootNamespace>
+  </PropertyGroup>
+
+</Project>

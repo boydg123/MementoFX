@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MementoFX</id>
+        <version>2.0.0-pre2</version>
+        <title>MementoFX</title>
+        <authors>Andrea Saltarello,Mastreeno ltd</authors>
+        <owners>Andrea Saltarello,Mastreeno ltd</owners>
+        <licenseUrl>https://www.gnu.org/licenses/lgpl.txt</licenseUrl>
+        <projectUrl>https://github.com/MementoFX/MementoFX</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>An application framework supporting the development of time travelling applications</description>
+        <copyright>Mastreeno ltd, 2017</copyright>
+        <tags>event sourcing, cqrs, ddd, domain driven design</tags>
+        <dependencies>
+            <group targetFramework=".NETStandard1.6">
+                <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\MementoFX\bin\Debug\netstandard1.2\MementoFX.dll" target="lib\netstandard1.2\MementoFX.dll" />
+        <file src="..\src\MementoFX\bin\Debug\netstandard1.2\MementoFX.pdb" target="lib\netstandard1.2\MementoFX.pdb" />
+    </files>
+</package>
