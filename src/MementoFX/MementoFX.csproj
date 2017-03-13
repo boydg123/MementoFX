@@ -16,4 +16,8 @@
     <RootNamespace>Memento</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.2\MementoFX.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

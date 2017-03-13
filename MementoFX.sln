@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoFX", "src\MementoFX\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoFX.Tests", "src\MementoFX.Tests\MementoFX.Tests.csproj", "{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Domain.NetFx", "..\MementoFX.Domain.NetFx\src\MementoFX.Domain.NetFx\Memento.Domain.NetFx.csproj", "{A55D9702-109E-44EA-9E7E-D3B0B49EF123}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BBDB4C6-807E-44A2-8FA2-0419A31DB6FF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A55D9702-109E-44EA-9E7E-D3B0B49EF123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
